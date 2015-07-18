@@ -1,0 +1,27 @@
+{
+  "name": "node-boilerplate",
+  "version": "0.0.0",
+  "description": "Simple NodeJS boilerplate",
+  "main": "./lib/index.js",
+  "bin": {
+    "binary_name": "./bin/index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nihey/node-boilerplate.git"
+  },
+  "keywords": [
+    "node",
+    "boilerplate",
+    "simple"
+  ],
+  "author": "Nihey Takizawa <nihey.takizawa@gmail.com>",
+  "license": "CC0",
+  "bugs": {
+    "url": "https://github.com/nihey/node-boilerplate/issues"
+  },
+  "homepage": "https://github.com/nihey/node-boilerplate"
+}
