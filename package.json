@@ -7,7 +7,7 @@
     "binary_name": "./bin/index.js"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "./node_modules/.bin/eslint ."
   },
   "repository": {
     "type": "git",
@@ -23,5 +23,8 @@
   "bugs": {
     "url": "https://github.com/nihey/node-boilerplate/issues"
   },
-  "homepage": "https://github.com/nihey/node-boilerplate"
+  "homepage": "https://github.com/nihey/node-boilerplate",
+  "devDependencies": {
+    "eslint": "^1.6.0"
+  }
 }
